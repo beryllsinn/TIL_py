@@ -3,7 +3,7 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 
-chat_model = ChatOpenAI(model="gpt-4o")
+chat_model = ChatOpenAI()
 
 st.title('AI 작사가')
 
