@@ -1,9 +1,9 @@
 # from dotenv import load_dotenv
 # load_dotenv()
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
-chat_model = ChatOpenAI()
+chat_model = ChatOpenAI(model="gpt-4o")
 
 st.title('AI 작사가')
 
